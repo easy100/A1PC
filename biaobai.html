@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>郑皓我喜欢你</title>
+    <style type="text/css">
+        body{
+            background-image: url("./images/1.jpg");
+            background-size: 100% 100%;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes myfirst{
+            0%{opacity:0}
+            25%{opacity:100}
+            50%{opacity:0}
+            100%{opacity:0}
+        }
+        @keyframes mysecond{
+            0%{opacity:0}
+            50%{opacity:0}
+            75%{opacity:100}
+            100%{opacity:0}
+        }
+        p{
+            font-size: 100px;
+            position:absolute;
+            width:100%;
+            text-align: center;
+        }
+        #women{
+            animation: myfirst 4.3s infinite;
+        }
+        #yiqi{
+            animation: mysecond 4.3s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="wav/bgm.wav"  autoplay="autoplay" loop="loop">
+</audio>
+<img src="2.jpg"/>
+<p id="women">我们一起学猫叫，</p>
+<p id="yiqi">一起喵喵喵喵喵。</p>
+</body>
+</html>
